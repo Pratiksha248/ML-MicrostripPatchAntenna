@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[8]:
-
-
 #Import necessary libraries for data manipulation and machine learning tasks
 import pandas as pd 
 import numpy as np 
@@ -49,4 +43,3 @@ for model in models:
 #Print the first few rows of the DataFrame with the predicted values
 print("\nPredicted values for each algorithm:")
 print(data.head())
-
